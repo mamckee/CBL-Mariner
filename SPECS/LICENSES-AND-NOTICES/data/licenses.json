@@ -2364,6 +2364,7 @@
                 "libconfuse",
                 "libiothsm-std",
                 "libmaxminddb",
+                "libmetalink",
                 "libuv",
                 "libxml++",
                 "lld",
