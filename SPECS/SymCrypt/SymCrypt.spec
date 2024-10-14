@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 Summary:        A core cryptographic library written by Microsoft
 Name:           SymCrypt
-Version:        103.4.2
+Version:        103.5.1
 Release:        1%{?dist}
 License:        MIT
 Vendor:         Microsoft Corporation
@@ -78,6 +78,9 @@ chmod 755 %{buildroot}%{_libdir}/libsymcrypt.so.%{version}
 %{_includedir}/*
 
 %changelog
+* Tue Oct 08 2024 Maxwell Moyer-McKee <mamckee@microsoft.com> - 103.5.1-1
+- Update SymCrypt to v103.5.1 for FIPS certification
+
 * Wed Jun 25 2024 Maxwell Moyer-McKee <mamckee@microsoft.com> - 103.4.2-1
 - Update SymCrypt to v103.4.2 for FIPS certification
 
